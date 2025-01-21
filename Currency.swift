@@ -6,3 +6,9 @@
 //
 
 import Foundation
+
+struct Currency {
+    var currency: String
+    var imageName: String
+    var value: Int
+}
