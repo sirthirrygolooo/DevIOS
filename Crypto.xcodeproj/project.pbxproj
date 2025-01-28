@@ -12,6 +12,8 @@
 		C4270C0F2D365A47005BBE70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4270C0E2D365A47005BBE70 /* Assets.xcassets */; };
 		C4270C122D365A47005BBE70 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4270C112D365A47005BBE70 /* Preview Assets.xcassets */; };
 		C43B532C2D3F8C4600048317 /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43B532B2D3F8C4600048317 /* Currency.swift */; };
+		C4D006062D48BFDC00507FE7 /* ForecastsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D006052D48BFDC00507FE7 /* ForecastsViewModel.swift */; };
+		C4D0060A2D48C09300507FE7 /* CurrencyList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D006092D48C09300507FE7 /* CurrencyList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		C4270C0E2D365A47005BBE70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C4270C112D365A47005BBE70 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C43B532B2D3F8C4600048317 /* Currency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
+		C4D006052D48BFDC00507FE7 /* ForecastsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastsViewModel.swift; sourceTree = "<group>"; };
+		C4D006092D48C09300507FE7 /* CurrencyList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 		C4270C092D365A46005BBE70 /* Crypto */ = {
 			isa = PBXGroup;
 			children = (
+				C4D006052D48BFDC00507FE7 /* ForecastsViewModel.swift */,
+				C4D006092D48C09300507FE7 /* CurrencyList.swift */,
 				C4270C0A2D365A46005BBE70 /* CryptoApp.swift */,
 				C4270C0C2D365A46005BBE70 /* ContentView.swift */,
 				C4270C0E2D365A47005BBE70 /* Assets.xcassets */,
@@ -141,7 +147,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C43B532C2D3F8C4600048317 /* Currency.swift in Sources */,
+				C4D006062D48BFDC00507FE7 /* ForecastsViewModel.swift in Sources */,
 				C4270C0D2D365A46005BBE70 /* ContentView.swift in Sources */,
+				C4D0060A2D48C09300507FE7 /* CurrencyList.swift in Sources */,
 				C4270C0B2D365A46005BBE70 /* CryptoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

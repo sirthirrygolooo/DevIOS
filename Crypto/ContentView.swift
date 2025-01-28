@@ -10,12 +10,8 @@ import SwiftUI
 struct ContentView: View {
     
     @State var isEur : Bool = false
-    @State var hehe: [Currency] = [
-        Currency(currency: "BIT", imageName: "bitcoin", value: 51),
-        Currency(currency: "ETH", imageName: "ethereum", value: 21),
-        Currency(currency: "XRP", imageName: "ripple", value: 6),
-        Currency(currency: "XLM", imageName: "stellar", value: 11)
-    ]
+    @EnvironmentObject var forecastsVM: ForecastsViewModel
+    
     
     var body: some View {
         
@@ -89,30 +85,6 @@ struct ContentView: View {
                 
                 Spacer()
             }
-        }
-    }
-}
-
-struct CurrencyList: View {
-    
-    var currency: Currency
-    var isEur : Bool
-    
-    var body: some View {
-        VStack {
-            Text(currency.currency)
-                .font(.title2)
-                .foregroundStyle(.white)
-            
-            Image(currency.imageName)
-                .renderingMode(.original)
-                .resizable()
-                .aspectRatio(contentMode: .fit)
-                .frame(width: 60, height: 60)
-            
-            Text("\(isEur ? "€":"$") \(currency.value)k")
-                .font(.title2)
-                .foregroundStyle(.white)
         }
     }
 }
